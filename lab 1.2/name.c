@@ -2,8 +2,10 @@
 
 int main()
 {
-     print name
-     printf("disha");
+     //print name,age,school
+     printf("Name : - disha\n");
+     printf("age : - 22\n");
+     printf("school : - bhakti school\n");
 
      return 0;
 
