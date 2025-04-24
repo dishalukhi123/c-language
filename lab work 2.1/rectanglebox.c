@@ -11,7 +11,7 @@ int main()
 
     printf("----------\n");
     printf("|         |\n");
-    printf("|%d      |\n",a*b);
+    printf("|%d %d = %d      |\n",a, b, a*b);
     printf("|         |\n");
     printf("----------\n");
 

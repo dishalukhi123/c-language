@@ -4,11 +4,11 @@ int main()
     int x;
     float val;
     printf("Enter float value :");
-    scanf("%f",val);
+    scanf("%f", &val);
 
     x = val;
 
-    printf("your output is  : %d\n",x-val);
+    printf("Your output is: %.2f\n", (x - val));
 
     return 0;
 }
