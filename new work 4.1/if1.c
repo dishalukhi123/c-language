@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c,e;
+    int a,b,c;
 
     printf("Enter a number of A :");
     scanf("%d",&a);
@@ -12,8 +12,8 @@ int main()
     printf("Enter a number of C :");
     scanf("%d",&b);
 
-    printf("Enter a number of E :");
-    scanf("%d",&e);
+    printf("Enter a number of C :");
+    scanf("%d",&b);
 
     if (a > b)
     {
@@ -23,16 +23,9 @@ int main()
         }else{
             printf("C is max");
         }
-        if (b > c)
-        {
-            printf("B is max");
-        }else{
-            printf("C is max");
-        }
-        
-    }if (e > c)
+    }if (b > c)
     {
-        printf("E is max");
+        printf("B is max");
     }else{
         printf("C is max");
     }
