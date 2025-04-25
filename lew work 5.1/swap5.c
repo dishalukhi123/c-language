@@ -8,12 +8,12 @@ int main()
     printf("Enter a number of B :");
     scanf("%d",&b);
 
-    a = b + b;
+    a = a + b;
     b = a - b;
     a = a - b;
 
-    printf("Approximant value :%d\n", a);
-    printf("Approximant value :%d", b);
+    printf("Approximant value A :%d\n", a);
+    printf("Approximant value b :%d", b);
 
     return 0;
 }
