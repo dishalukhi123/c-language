@@ -12,8 +12,6 @@ int main()
     printf("Enter a number of C :");
     scanf("%d",&b);
 
-    printf("Enter a number of C :");
-    scanf("%d",&b);
 
     if (a > b)
     {
