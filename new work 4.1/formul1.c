@@ -1,13 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int a,b;
+    int a,b,ans;
 
     printf("Enter a number of A :");
     scanf("%d",&a);
     printf("Enter a number of B :");
     scanf("%d",&b);
 
-    printf("Approximant value :%d", (a + b) * 2);
+    ans = (a + b) * (a + b);
+
+    printf("Approximant value :%d", ans);
     return 0;
 }
