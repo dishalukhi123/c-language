@@ -1,22 +1,32 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main()
 {
-    int  salary,hra,da,ta,gross;
+    float baseSalary, hraPercent, daPercent, taPercent;
+    float hraAmount, daAmount, taAmount, grossSalary;
 
-    printf("Enter your salary:");
-    scanf("%d",&salary);
+    // Taking input from user
+    printf("Enter the base salary: ");
+    scanf("%f", &baseSalary);
 
-    printf("Enter your hra:");
-    scanf("%d",&hra);
+    printf("Enter HRA percentage: ");
+    scanf("%f", &hraPercent);
 
-    printf("Enter your da:");
-    scanf("%d",&da);
+    printf("Enter DA percentage: ");
+    scanf("%f", &daPercent);
 
-    printf("Enter your ta:");
-    scanf("%d",&ta);
-    
-    gross = salary + hra + da + ta;
-  
-    printf("Gross salary :%d", gross);
-    return 0;
+    printf("Enter TA percentage: ");
+    scanf("%f", &taPercent);
+
+    // Calculating allowances
+    hraAmount = (hraPercent / 100) * baseSalary;
+    daAmount = (daPercent / 100) * baseSalary;
+    taAmount = (taPercent / 100) * baseSalary;
+
+    // Calculating gross salary
+    grossSalary = baseSalary + hraAmount + daAmount + taAmount;
+
+    // Displaying the result
+    printf("Gross Salary = %.2f\n", grossSalary);
+
 }
