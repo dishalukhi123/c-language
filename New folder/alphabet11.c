@@ -3,20 +3,18 @@ int main()
 {
     char ch;
 
-    printf("Enter a alphabet :");
-    scanf("%c",&ch);
+    printf("Enter an alphabet: ");
+    scanf("%c", &ch);
 
-    if ((ch == 'A' && ch == 'Z'))
+    if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U' ||
+        ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
     {
-        printf("alphabet");
-    }else if ((ch == 'A'))
-    {
-        printf("vowel");
+        printf("vowel\n");
     }
     else
     {
-        printf("not alphabet");
+        printf("alphabet\n");
     }
-    
+
     return 0;
 }
