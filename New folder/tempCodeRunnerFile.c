@@ -1,17 +1,1 @@
-#include<stdio.h>
-int main()
-{
-    int val;
-
-    printf("Enter any number :");
-    scanf("%d",&val);
-
-    if (val <= 100 && 200 <= val)
-    {
-        printf("inclusive");
-    }else{
-        printf("inclusive not");
-    }
-    
-    return 0;
-}
+        // amount = amount - (nots * 500);
