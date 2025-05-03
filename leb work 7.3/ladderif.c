@@ -10,18 +10,23 @@ int main()
     printf("Enter a number of c :");
     scanf("%d",&c);
 
-    if (a > b && b > c && a > c)
-    {
-        printf("A is max");
-    }else if (b > a && b > c && c > a )
-    {
-        printf("B is max");
-    }else if (a == b && b == c && a == c)
-    {
-        printf("All are sem");
-    }else{
-        printf("C is max");
-    }
+    (a == b && b == c) ? printf("All are same\n") :
+    (a > b && a > c)   ? printf("A is max\n")     :
+    (b > a && b > c)   ? printf("B is max\n")     :
+                         printf("C is max\n");
+
+    // if (a > b && b > c && a > c)
+    // {
+    //     printf("A is max");
+    // }else if (b > a && b > c && c > a )
+    // {
+    //     printf("B is max");
+    // }else if (a == b && b == c && a == c)
+    // {
+    //     printf("All are sem");
+    // }else{
+    //     printf("C is max");
+    // }
     
     
     
