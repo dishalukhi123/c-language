@@ -8,13 +8,12 @@ int main()
         printf("Enter a number- :");
         scanf("%d", &val);
 
-        if (i % 2 != 0)
+        if (i % 2 == 0)
         {
-            printf("Odd numbers :-%d\n",val);
+            printf("Even numbers :-%d\n",val);
             sum ++;
         }
         printf("%d\n",sum);
-        i++;
         
 
     }
