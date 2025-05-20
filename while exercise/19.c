@@ -11,7 +11,7 @@ int main()
 
         if (val > 0)
         {
-            pos_sum ++;
+            pos_sum ++1;
         }
         else if (val < 0)
         {
